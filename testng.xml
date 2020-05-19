@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Session Test Automation Suite ">
+  <test thread-count="5" name="Different testng Feature Test">
+    <classes>
+      <class name="com.testNG.ExceptionTimoutTest"/>
+      <class name="com.testNG.GoogleTitleTest"/>
+      <class name="com.testNG.GoogleTest"/>
+      <class name="com.testNG.InvocationCountTest"/>
+      <class name="com.testNG.TestNgBasics"/>
+      <class name="com.testNG.TestNGFeatures"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
