@@ -28,7 +28,7 @@ public class TakeScreenShotConcept {
 		
 		//Take screenshot and store as file format
 		File src =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		//now copy the screenshoot to desired location using copuFile//method
+		//now copy the screenshoot to desired location using copyFile//method
 		//FileUtils.copyFiles(src, new File("C:\\Users\\alvee\\eclipse-workspace\\SeleniumWebdriverNaveen/google.png"))
 		
 	}

@@ -15,7 +15,7 @@ public class WebDriverBasics {
 		driver.get("https://www.google.com/");*/
 		
 		//2.chrome browser:
-		System.setProperty("webdriver.chrome.driver", "C:\\Driver\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Driver\\chromedriver.exe");
 			WebDriver driver1 = new ChromeDriver();	
 			driver1.get("https://www.google.com/");
 			driver1.getTitle();
