@@ -11,7 +11,7 @@ public class HeadLessChromeTest {
 
 	public static void main(String[] args) {
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Driver\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Driver\\chromedriver.exe");
 		
 		ChromeOptions option =new ChromeOptions(); 
 		option.addArguments("window-size=1400,800");

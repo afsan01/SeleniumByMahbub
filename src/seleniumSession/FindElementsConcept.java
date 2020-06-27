@@ -12,7 +12,7 @@ public class FindElementsConcept {
 
 	public static void main(String[] args) {
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Driver\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
 		driver.manage().window().maximize();
@@ -24,7 +24,7 @@ public class FindElementsConcept {
 		
 		driver.get("http://www.facebook.com/");
 		
-		//1. get tie total link of the page
+		//1. get the total link of the page
 		//2. get the text of each link on the page
 		
 		 List <WebElement> linklist =driver.findElements(By.tagName("a"));

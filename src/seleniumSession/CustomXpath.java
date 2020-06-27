@@ -10,7 +10,7 @@ public class CustomXpath {
 
 	public static void main(String[] args) {
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Driver\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
 		driver.manage().window().maximize();
@@ -27,9 +27,9 @@ public class CustomXpath {
 		//id=test_123
 		//id=test_456
 		//id =test_789
-		driver.findElement(By.xpath("//input[contains(@id, 'test_')]")).sendKeys("Java");
-		driver.findElement(By.xpath("//input[starts-with(@id, 'test_')]")).sendKeys("test");
-		driver.findElement(By.xpath("//input[ends-with(@id, '_test_')]")).sendKeys("Test");
+		//driver.findElement(By.xpath("//input[contains(@id, 'test_')]")).sendKeys("Java");
+		//driver.findElement(By.xpath("//input[starts-with(@id, 'test_')]")).sendKeys("test");
+		//driver.findElement(By.xpath("//input[ends-with(@id, '_test_')]")).sendKeys("Test");
 		
 		//for links:
 		//all the links are represented by<a> html tag.

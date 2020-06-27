@@ -11,7 +11,7 @@ public class HTMLUnitDriverConcept {
 
 	public static void main(String[] args) {
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Driver\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
 		//Html unit driver is not available in selenium 3.x version
@@ -27,7 +27,7 @@ public class HTMLUnitDriverConcept {
 		driver.findElement(By.xpath("//span[contains(text(), 'Log In')]")).click();
 
 		driver.findElement(By.name("email")).sendKeys("afsan0403@gmail.com");
-		driver.findElement(By.name("password")).sendKeys("al112101");
+		driver.findElement(By.name("password")).sendKeys("Al112101");
 		driver.findElement(By.xpath("(//div[contains(text(),'Login')])[1]")).click();
 		System.out.println("After login title is "+driver.getTitle());
 
