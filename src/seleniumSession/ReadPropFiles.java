@@ -39,7 +39,7 @@ public class ReadPropFiles {
 		 	driver = new FirefoxDriver();
 	}
 		else if(browserName.equals("IE")) {
-			System.setProperty("webdriver.IE.driver", "C:\\Driver\\internetexplorerdriver.exe");
+			System.setProperty("webdriver.internetExplorer.driver", "C:\\Driver\\internetexplorerdriver.exe");
 			driver =new InternetExplorerDriver();
 		}
 		driver.get(url);

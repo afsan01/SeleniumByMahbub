@@ -30,6 +30,7 @@ public class FindElementsConcept {
 		 List <WebElement> linklist =driver.findElements(By.tagName("a"));
 		 System.out.println(linklist.size());
 		 
+		 
 		 for(int i=0;i<linklist.size();i++) {
 			String linkText=linklist.get(i).getText();
 			System.out.println(linkText);

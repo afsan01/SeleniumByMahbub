@@ -12,6 +12,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ExplicitlyWait {
 
+	//WebDriverWait wait = new WebDriverWait(driver,30);
+	//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(text(),'COMPOSE')]")));
+	
 	public static void main(String[] args) {
 
 		System.setProperty("webdriver.chrome.driver", "C:\\Driver\\chromedriver_win32\\chromedriver.exe");
@@ -27,6 +30,7 @@ public class ExplicitlyWait {
 		
 		ClickOn(driver, driver.findElement(By.linkText("Gmail")), 20);
 		
+	
 		
 	}
 	public static void ClickOn(WebDriver driver, WebElement locator, int timeout) {

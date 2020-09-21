@@ -12,7 +12,7 @@ public class TestNGFeatures {
 
 	@Test(dependsOnMethods="loginTest")
 	public void homepageTest() {
-		System.out.println("Login Test");
+		System.out.println("HomePage Test");
 	}
 	
 	@Test

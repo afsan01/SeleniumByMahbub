@@ -1,10 +1,13 @@
 package seleniumSession;
 
 import java.io.File;
+
+
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+//import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
@@ -63,9 +66,9 @@ public class JavaScriptExecuterConcept {
 		scrollIntoView(forgotPwdLink,driver);
 		
 		// generate alert
-		//generateAlert(driver, "There is an issue with Login page");
-		//driver.switchTo().alert().accept();
-		// driver.quit();
+		generateAlert(driver, "There is an issue with Login page");
+		driver.switchTo().alert().accept();
+		 driver.quit();
 	}
 
 	// executeScript -- to execute JavaScript code

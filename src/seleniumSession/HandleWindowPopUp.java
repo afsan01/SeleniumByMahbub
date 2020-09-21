@@ -28,6 +28,7 @@ public class HandleWindowPopUp {
 		
 		String childWindowId=it.next();
 		System.out.println("Child window id: "+ childWindowId);
+		
 		driver.switchTo().window(childWindowId);
 		Thread.sleep(2000);
 		

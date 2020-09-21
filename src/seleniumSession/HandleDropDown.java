@@ -18,6 +18,7 @@ public class HandleDropDown {
 		//handle dropdown
 		Select select = new Select(driver.findElement(By.id("state")));
 		select.selectByVisibleText("California");
+		
 	}
 
 }
