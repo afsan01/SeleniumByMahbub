@@ -13,7 +13,7 @@ public class GoogleSearchTest {
 	public static void main(String[] args) {
 
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Driver\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Driver\\chromedriver_win32 (2)\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
 		driver.manage().window().maximize();
@@ -28,7 +28,7 @@ public class GoogleSearchTest {
 		//use of descendant
 		List<WebElement> list = driver.findElements(By.xpath("//ul[@role='listbox']//li/descendant::div[@class='sbl1']"));
 		
-		System.out.println("Tostal noumber of suggestion in search box:::==>" +list.size());
+		System.out.println("Total number of suggestion in search box:::==>" +list.size());
 		
 		for(int i=0; i<list.size();i++) {
 			System.out.println(list.get(i).getText());
