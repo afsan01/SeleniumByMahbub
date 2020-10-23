@@ -17,7 +17,7 @@ public class ReadPropFiles {
 	public static void main(String[] args) throws IOException {
 
 		Properties prop = new Properties();
-		FileInputStream ip = new FileInputStream("C:\\Users\\alvee\\eclipse-workspace\\SeleniumWebdriverByMahbub\\src\\seleniumSession\\config.properties");
+		FileInputStream ip = new FileInputStream("C:\\Users\\User\\git\\SeleniumByMahbub\\src\\seleniumSession\\config.properties");
 		
 		prop.load(ip);
 		
@@ -31,7 +31,7 @@ public class ReadPropFiles {
 		System.out.println(browserName);
 		
 		if(browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\Driver\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Driver\\chromedriver1.exe");
 			driver = new ChromeDriver();
 		}
 		else if(browserName.equals("FF")){

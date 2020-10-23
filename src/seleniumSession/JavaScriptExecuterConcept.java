@@ -57,7 +57,7 @@ public class JavaScriptExecuterConcept {
 		System.out.println(getTitleByJS(driver));
 		
 		//get the page text
-		System.out.println(getPageInnerTest(driver));
+		System.out.println(getPageInnerText(driver));
 		
 		//scroll page down
 		//scrollPageDown(driver);
@@ -120,7 +120,7 @@ public class JavaScriptExecuterConcept {
 
 	}
 	//get page inner text
-	public static String getPageInnerTest (WebDriver driver) {
+	public static String getPageInnerText (WebDriver driver) {
 		JavascriptExecutor js = ((JavascriptExecutor) driver);
 		String pageText = js.executeScript("return document.documentElement.innerText;").toString();
 		return pageText;
