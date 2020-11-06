@@ -10,7 +10,7 @@ public class Navvigations {
 	public static void main(String[] args) throws InterruptedException {
 
 		//Difference between get method and navigate method.
-		System.setProperty("webdriver.chrome.driver", "C:\\Driver\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Driver\\chromedriver1.exe");
 		WebDriver driver = new ChromeDriver();
 
 		driver.manage().window().maximize();

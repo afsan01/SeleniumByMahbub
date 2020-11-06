@@ -14,7 +14,7 @@ public class WindowPopUp {
 		//1. alerts--- JavaScript Pop UP--Alert API(accept, dissmiss)
 		//2. File Upload pop up--- Browse button(type= file, sendKeys(path)
 		//3. Browser Window pop up -- Advertisement pop up(Windowhandler API- getWindowHandles())
-		System.setProperty("webdriver.chrome.driver", "C:\\Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Driver\\chromedriver1.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://popuptest.com/goodpopups.html");
 		
